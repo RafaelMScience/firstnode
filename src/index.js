@@ -123,6 +123,6 @@ app.delete('/projects/:id', (request, response) => {
   return response.status(204).send();
 });
 
-app.listen(3333, () => {
+app.listen(3000, () => {
   console.log('🚀 Back-end started')
 });
